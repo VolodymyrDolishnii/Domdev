@@ -1,5 +1,5 @@
 # Well, there are 3 steps to run my app:
-1) Run the command ```nmp install (npm i)``` in the terminal
+1) Run the command ```npm install (npm i)``` in the terminal
  2) If you don't have the json-server package:
      ```npm install -g json-server```
  If you have this package, then the second step can be skipped.
