@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ForUpdating } from '../types/ForUpdating';
 import { Todo } from '../types/Todo';
 import { UpdateModal } from '../UpdateModal';
@@ -26,7 +26,15 @@ export const TodoList: React.FC<Props> = ({ todos, deleteTodo, updateTodo, setIs
                             defaultChecked={todo.isSelected}
                             onClick={() => updateTodo(todo.id, ForUpdating.isSelected)}
                         />
-                        <p className='is-size-2 is-vcentered todoText'>{todo.text}</p>
+                        <p 
+                            className='is-size-2 is-vcentered todoText' 
+                            style={ (todo.isSelected) 
+                                ? {textDecoration: "line-through",
+                                textDecorationColor: "red"} 
+                                : {}}
+                            >
+                                {todo.text}
+                            </p>
                     </div>
 
                     <div className="list__buttons">
