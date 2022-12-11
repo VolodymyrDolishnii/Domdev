@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": "243b4181-1413-4a8c-bbbb-05bb666abea1",
+      "text": "a",
+      "isSelected": true
+    },
+    {
+      "id": "3a449b9b-aca1-4616-a335-0aa6f1d3aa5d",
+      "text": "v",
+      "isSelected": false
+    },
+    {
+      "id": "ced753a2-ab67-41c8-a35a-f284346ee805",
+      "text": "v",
+      "isSelected": false
+    },
+    {
+      "id": "49cf2f19-65ce-4ba5-a011-b51a73c547e8",
+      "text": "rt",
+      "isSelected": false
+    },
+    {
+      "id": "4e4fdbf2-e8b3-4489-894e-a2145adacdfe",
+      "text": "rttr",
+      "isSelected": false
+    },
+    {
+      "id": "b7c4983a-cf3c-4f28-88ed-d935d92e83f1",
+      "text": "kjljk",
+      "isSelected": false
+    },
+    {
+      "id": "fe618a1b-0d8a-49a5-8cbc-45e994ac6464",
+      "text": "/.,,m",
+      "isSelected": false
+    },
+    {
+      "id": "26972ba7-e8aa-4c67-9e10-9b5f629bd7bd",
+      "text": "_____",
+      "isSelected": false
+    }
+  ]
+}
